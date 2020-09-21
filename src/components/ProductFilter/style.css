@@ -32,6 +32,9 @@
     background-color: white;
     color: var(--primaryColor);
     margin-bottom: 10px;
+    background: #616161; 
+    background: -webkit-linear-gradient(to right, rgb(35, 46, 44), #616161); 
+    background: linear-gradient(to right, rgb(35, 46, 44), #616161); 
   }
   .size-inputs {
     display: flex;

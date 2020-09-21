@@ -64,12 +64,15 @@ export default function ProductFilter({products}) {
             return <option value={item} key={index}>{item}</option>
         })
         
+        function refreshPage() {
+            window.location.reload(false);
+          }
 
     return (
         
         <section className="filter-container">
             <Title title="Szukaj produktów" />
-            <form className="filter-form" >
+            <form className="filter-form">
                 <div className="form-group">
                 
                     <select name="type" id="type" value={type}
@@ -106,7 +109,7 @@ export default function ProductFilter({products}) {
                     className="form-control" onChange={handleChange}>{volumes}</select>
                 </div>
                 <div className="form-group">
-                <button className="btn-primary">Wyczyść wszystkie filtry</button>
+                <button className="btn-primary" type="button" onClick={refreshPage}>Wyczyść wszystkie filtry</button>
                 </div>
             </form>
             
