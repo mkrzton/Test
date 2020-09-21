@@ -5,11 +5,11 @@ import Title from '../../components/Title'
 
 export default function ContactUs() {
 
-    
+    const token = process.env.REACT_APP_MAIL_TOKEN
     function sendEmail(e) {
         e.preventDefault();
 
-    emailjs.sendForm('gmail', 'hitech_plast', e.target, "user_5wmBUQATZoGHx41HMfmAT")
+    emailjs.sendForm('gmail', 'hitech_plast', e.target, {token})
         .then((result) => {
             alert("Wiadomość została wysłana!");
         }, (error) => {
