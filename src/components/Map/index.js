@@ -7,7 +7,7 @@ import logo from '../../images/napis.png'
 import {Link} from 'react-router-dom'
 import Mail from '../../components/Mail'
 
-const MAPBOX_TOKEN = process.env.REACT_APP_MAP_TOKEN
+const MAPBOX_TOKEN = "pk.eyJ1IjoibWFjZW5zIiwiYSI6ImNrZWEweDk2bTJjMTgyeHBkcDdzcDhnMngifQ.6AYfXY8qXrmXFUDTlILydw"
 
 export default function Map(){
     const [viewport, setViewport] = useState({

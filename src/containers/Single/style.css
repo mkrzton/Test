@@ -1,0 +1,128 @@
+.wrapper{
+    width: 100%;
+   
+  }
+  
+  .img-info{
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid var(--primaryColor);
+    margin-bottom: 2rem;
+    
+    
+  }
+  .img-info h2{
+    padding: 30px 30px 0px;
+    font-family: arial;
+    font-size: 50px;
+    line-height:  44px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--primaryColor)
+   }
+  
+   
+   .img-info h3{
+    padding: 0px 10px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    font-family: arial;
+    font-size: 20px;
+    line-height:  44px;
+    background-color: white;
+    text-align: left;
+   }
+  
+   .img-product{
+     width: 100%;
+     
+     
+   }
+   .magnifier-image {
+    border: solid 2px var(--primaryColor);
+  }
+   .img-info hr{
+    color: #a2f2dc;
+    margin-top: 20px;
+    margin-bottom: 0px;
+   }
+   .trait{
+    width: 100px;
+    color: var(--primaryColor);
+  }
+  .button-single{
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: var(--mainSpacing);
+    color: var(--mainBlack);
+    background: var(--primaryColor);
+    padding: 0.4rem 0.9rem;
+    border: 3px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+  }
+  .button-single:hover {
+    background: transparent;
+    color: var(--primaryColor);
+  }
+  @media screen and (min-width: 776px) {
+    .wrapper{
+      width: 600px;
+      margin: 0 auto;
+      
+    }
+    .img-info h2{
+      padding: 20px 0px 0px;
+      margin-bottom: 0px;
+     }
+    
+     .img-product{
+       padding-top: 30px;
+      width: 100%;
+      padding-left: 0px;
+      
+    }
+    .button-single{
+      font-size: 22px;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    }
+  
+    @media screen and (min-width: 992px){
+      .wrapper{
+        width: 100%;
+        
+    
+      }
+      .img-info{
+        
+        padding: 0px;
+        width: 45%;
+        float: right;
+        margin-top: 20px;
+        margin-right: 3rem;
+        margin-bottom: 1rem;
+      }
+      .img-product{
+        padding-top: 20px;
+        padding-bottom: 50px;
+        width: 50%;
+        float: left;
+        padding-left: 20px;
+        
+      }
+  
+       .trait{
+         width: 200px;
+         
+       }
+     
+    }
+  
+    
