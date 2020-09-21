@@ -1,16 +1,16 @@
 .break22
 {
-  margin-top: -100px;
+  margin-top: -60px;
 }
 .wrapper22{
    
-    width: 95vw;
+    width: 100vw;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  
+    grid-template-columns: repeat(auto-fit, minmax(170px, 2fr));
+    
     margin-bottom: 20px;
-    background: whitesmoke;
+    background: white;
     
   
 }
@@ -18,39 +18,12 @@
     position: relative;
     text-align: center;
     color: white;
-   margin-bottom: 20px;
+    margin-bottom: 20px;
     
     
   }
- .image22{
-    width: 90%;
-    height: auto;
-    border: 2px solid var(--primaryColor);
-    border-radius:50px;
-    
- }
-  .centered22 {
-    border-radius:50px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position:absolute;
-    color: var(--primaryColor);
-    background: black;  /* fallback for old browsers */
-    opacity: 75%;
-    width: 83%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    z-index: 200;
-    font-weight: 800;
-    font-size: 24px;
-    
-  }
+ 
 
-  .centered22:hover{
-      opacity: 60%;
-        background: black;
-  }
   @media screen and (min-width: 700px){
     .container22 {
       padding: 5px;
@@ -59,9 +32,7 @@
       width: 90%;
       
    }
-    .centered22 {
-      width: 83%;
-    }
+    
   }
   @media screen and (min-width: 1000px){
     .container22 {
@@ -71,8 +42,4 @@
       width: 100%;
       
    }
-    .centered22 {
-      width: 90%;
-      
-    }
   }

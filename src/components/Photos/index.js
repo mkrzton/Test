@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 import './style.css'
 import Title from '../Title'
-import preforma from '../../images/pet.jpg'
-
+import cer1 from '../../images/cer1.png'
+import cer2 from '../../images/cer2.png'
+import cer3 from '../../images/cer3.png'
+import cer4 from '../../images/cer4.png'
+import cer5 from '../../images/cer5.png'
 
 export default class Photos extends Component {
 
@@ -11,25 +14,26 @@ export default class Photos extends Component {
         return (
             <>
             <section className="services">
-            <Title title="Usługi"></Title>
+            <Title title="Certyfikaty"></Title>
             </section>
             <div className="break22"></div>
             <div className="wrapper22">
             <div className="container22">
-                <img src={preforma} alt="Snow" className="image22"/>
-                <div className="centered22">Doświadczeni projektanci i konstruktorzy</div>
+                <img src={cer1} alt="Snow" className="image22"/>
+                
             </div>
             <div className="container22">
-                <img src={preforma} alt="Snow" className="image22"/>
-                <div className="centered22">Projektowanie opakowań pod zamówienie</div>
+                <img src={cer2} alt="Snow" className="image22"/>
+              
             </div>
             <div className="container22">
-                <img src={preforma} alt="Snow" className="image22"/>
-                <div className="centered22">Nowoczesny park maszynowy</div>
+                <img src={cer3} alt="Snow" className="image22"/>
             </div>
             <div className="container22">
-                <img src={preforma} alt="Snow" className="image22"/>
-                <div className="centered22">Wysyłanie artykułów na całą Europę</div>
+                <img src={cer4} alt="Snow" className="image22"/>
+            </div>
+            <div className="container22">
+                <img src={cer5} alt="Snow" className="image22"/>
             </div>
             </div>
            </>
