@@ -1,0 +1,35 @@
+.container{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    margin-top: -50px;
+}   
+.form-control2{
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    resize: vertical;
+    max-height: 500px; 
+}
+@media screen and (min-width: 776px) {
+    .container{
+        width: 80%;      
+    }
+    .form-control{
+        margin: 5px;
+        padding: 10px;
+        font-size: 26px;
+        font-weight: 600;
+        resize: vertical;
+        max-height: 500px;
+    }  
+}  
+@media screen and (min-width: 992px){
+    .container{
+        width: 60%;   
+    }
+}

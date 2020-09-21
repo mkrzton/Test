@@ -1,0 +1,55 @@
+.border{
+    background-color: whitesmoke;
+    border: solid 0.5px var(--primaryColor);
+    margin: 0px -50px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.ramka img{
+    height: 32px;
+    width: 32px;
+    display: block;
+}
+.ramka label{
+    font-weight: 600;
+    font-size: 11px;
+    text-align: center;
+    display: block;
+}
+.tekst{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+      
+}
+.ramka {
+    padding-bottom: 10px;
+}
+.break{
+    padding-bottom: 20px;
+}
+.napis{
+    width: 600px;
+}
+.tekst a{
+    font-size: 25px;
+    text-decoration: none;
+}
+@media screen and (max-width: 776px) {
+    .tekst h1{
+        font-size: 25px;
+    }
+    .tekst h3{
+        font-size: 15px;
+    }
+    .tekst h4{
+        font-size: 17px;
+    }
+    .napis{
+        width: 300px;
+    }
+    .tekst a{
+        font-size: 20px;
+    }
+}

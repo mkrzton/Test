@@ -1,0 +1,19 @@
+.defaultHero,
+.roomsHero {
+  min-height: calc(89vh);
+  background: url("../../images/wtryskarka.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: var(--primaryColor) 2px solid;
+}
+
+.heroAbout{
+  min-height: calc(80vh);
+  background: url("../../images/about.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: var(--primaryColor) 2px solid;
+
+}

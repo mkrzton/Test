@@ -1,0 +1,5 @@
+.around {
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid var(--primaryColor);
+  }
