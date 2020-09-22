@@ -11,8 +11,6 @@
 .form-control2{
     margin: 5px;
     padding: 10px;
-    font-size: 20px;
-    
     resize: vertical;
     max-height: 500px; 
 }
@@ -23,7 +21,6 @@
     .form-control{
         margin: 5px;
         padding: 10px;
-        font-size: 30px;  
         resize: vertical;
         max-height: 500px;
         

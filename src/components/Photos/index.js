@@ -15,27 +15,26 @@ export default class Photos extends Component {
             <>
             <section className="services">
             <Title title="Certyfikaty"></Title>
-            </section>
-            <div className="break22"></div>
-            <div className="wrapper22">
-            <div className="container22">
-                <img src={cer1} alt="Snow" className="image22"/>
+            <div className="wrap">
+            <div className="pack">
+                <img src={cer1} alt="certificate" className="cert"/>
                 
             </div>
-            <div className="container22">
-                <img src={cer2} alt="Snow" className="image22"/>
+            <div className="pack">
+                <img src={cer2} alt="certificate" className="cert"/>
               
             </div>
-            <div className="container22">
-                <img src={cer3} alt="Snow" className="image22"/>
+            <div className="pack">
+                <img src={cer3} alt="certificate" className="cert"/>
             </div>
-            <div className="container22">
-                <img src={cer4} alt="Snow" className="image22"/>
+            <div className="pack">
+                <img src={cer4} alt="certificate" className="cert"/>
             </div>
-            <div className="container22">
-                <img src={cer5} alt="Snow" className="image22"/>
+            <div className="pack">
+                <img src={cer5} alt="certificate" className="cert"/>
             </div>
             </div>
+            </section>
            </>
            
         )
