@@ -1,4 +1,5 @@
 .footer{
+    z-index: 2;
     position: fixed;
     background: #616161; 
     background: -webkit-linear-gradient(to right, rgb(35, 46, 44), #616161);  
