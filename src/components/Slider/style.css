@@ -36,12 +36,12 @@
 
 .slider-wrapper {
   position: relative;
-  height: 85vh;
+  height: 87vh;
   overflow: hidden;
 }
 
 .slide {
-  height: 85vh;
+  height: 87vh;
   background-size: cover !important;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .previousButton:hover, .nextButton:hover {
-  background: url('../../images/right-arrow.png') no-repeat center center / 64px;
+  background: url('../../images/right-arrow3.png') no-repeat center center / 64px;
 }
 
 .previousButton {
@@ -122,7 +122,7 @@
 
 .slider-content .inner p {
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
   margin: 20px auto 30px;
   max-width: 640px;
@@ -162,17 +162,7 @@
   display: block;
 }
 
-@media (max-height: 500px) {
-  .slider-wrapper, .slide {
-    height: calc(100vh - 75px);
-  }    
-}
 
-@media (max-width: 640px) {
-  .slider-wrapper, .slide {
-    height: calc(80vh - 75px);
-  }    
-}
 
 @media (max-height: 600px) {
   .slider-content .inner h1 {
@@ -183,5 +173,19 @@
 @media (max-width: 640px) {
   .slider-content .inner h1 {
     font-size: 32px;
+  }
+  .slider-content .inner p {
+ 
+    font-size: 14px;
+  
+  }
+  .previousButton, .nextButton {
+		
+    background: url("../../images/right-arrow.png") no-repeat center center / 32px;
+    width: 32px;
+		height: 32px;
+  }
+  .previousButton:hover, .nextButton:hover {
+    background: url('../../images/right-arrow3.png') no-repeat center center / 32px;
   }
 }
